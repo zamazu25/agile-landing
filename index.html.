@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AGIle - The AI Scrum Master</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 48px;
+      margin-bottom: 10px;
+    }
+    header p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+    .cta {
+      background-color: #e63946;
+      color: white;
+      padding: 15px 30px;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .feature {
+      margin-bottom: 40px;
+    }
+    .feature h2 {
+      color: #1a1a1a;
+    }
+    .features-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 30px;
+    }
+    .feature-box {
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #1a1a1a;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    a.cta:hover {
+      background-color: #d62828;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Meet AGIle</h1>
+  <p>Your Always-On, AI-Native Scrum Master</p>
+  <a href="#signup" class="cta">Join the Pilot</a>
+</header>
+
+<section>
+  <div class="feature">
+    <h2>Agile Should Be Agile Again</h2>
+    <p>Scrum Masters and Agile Coaches are burdened with repetitive tasks, bloated ceremonies, and tool fatigue. AGIle removes the noise, and lets delivery lead.</p>
+  </div>
+
+  <div class="feature">
+    <h2>The AGIle Engine</h2>
+    <p>A fully-integrated AI system that orchestrates Agile delivery across your stack.</p>
+    <div class="features-grid">
+      <div class="feature-box">
+        <h3>AI Standup Digest</h3>
+        <p>Pulls updates from Jira & Slack. Synthesizes daily stand-ups into smart, 2-minute summaries.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Backlog Brain</h3>
+        <p>Dynamically reprioritizes backlog items based on urgency, risk, and value in real time.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Sprint Planner AI</h3>
+        <p>Predicts capacity, optimizes team load, and schedules realistic sprint goals.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Risk Radar</h3>
+        <p>Tracks blockers, highlights interdependencies, and suggests mitigation strategies.</p>
+      </div>
+      <div class="feature-box">
+        <h3>Integrated Dashboards</h3>
+        <p>Auto-generates burndown charts, delivery heatmaps, and team sentiment reports.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="signup">
+  <h2>Be Part of the Disruption</h2>
+  <p>We're inviting early adopters for our pilot rollout. Agile teams, startups, and digital agencies—this is your moment to deliver differently.</p>
+  <a href="mailto:hello@reddart.ai" class="cta">Request Early Access</a>
+</section>
+
+<footer>
+  <p>&copy; 2025 Red Dart Consulting | Powered by AGIle</p>
+</footer>
+
+</body>
+</html>
